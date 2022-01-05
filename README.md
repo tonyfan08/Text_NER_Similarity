@@ -10,10 +10,10 @@ Everything to get started is in the colab notebook(https://drive.google.com/driv
 3. For four different regression classification models, after comparing the training accuracy, select the KNN model line as the final module to use and make predictions.
 
 # Hint for processing
-1. Train data set reading
+1. Train data set loading
 2. Load Jieba and synonyms dictionary and replace synonyms
-3. Use Jieba for tokenization processing
-4. Load the keyword dictionary and take out the keywords in the token. This step is divided into three parts: crops, diseases and insect pests, and chemical agents.
+3. Use Jieba for tokenization
+4. Load the keyword dictionary and take out the keywords in the token. This step is divided into three parts: crops, pests, and chemicals.
 5. Establish three categories of keyword quantity parameters for each article
 6. Perform TF-IDF processing and vectorize the keywords of each article
 7. Perform Cosine similarity processing to generate a comparison value of article similarity
